@@ -1,0 +1,7 @@
+
+CREATE OR REPLACE PROCEDURE show_message
+IS
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Hello!');
+END;
+/
